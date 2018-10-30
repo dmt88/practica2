@@ -3,7 +3,7 @@ Tipologia i cicle de vida de les dades - Pràctica 1
 
 ## Descripció
 
-Aquesta pràctica s'ha realitzat sota el context de l'assignatura Tipologia i cicle de vida de les dades, pertanyent al Màster de Ciència de Dades de la UOC - Universitat Oberta de Catalunya. S'han aplicat tècniques de _web scraping_ mitjançant el llenguatge de programació Python per extreure dades de la web del "_Consejo General de Procuradores de España_".
+Aquesta pràctica s'ha realitzat sota el context de l'assignatura Tipologia i cicle de vida de les dades, pertanyent al Màster de Ciència de Dades de la UOC - Universitat Oberta de Catalunya. S'han aplicat tècniques de _web scraping_, mitjançant el llenguatge de programació Python, per extreure dades de la web del "_Consejo General de Procuradores de España_".
 
 ## Membres de l'equip
 
