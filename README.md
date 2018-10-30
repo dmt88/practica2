@@ -1,4 +1,4 @@
-# Pràctica 1: Web scraping
+# Pràctica 1: _Web scraping_
 Tipologia de la ciència de dades - Pràctica 1
 
 ## Descripció
