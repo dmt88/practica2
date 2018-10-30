@@ -14,7 +14,7 @@ L'activitat ha estat realitzada de manera individual per **David Martin Tinaquer
 * **src/main.py**: punt d'entrada al programa. Inicia el procés de _scraping_.
 * **src/eliminaFitxer.py**: conté la implementació de la funció _eliminaFitxer_ que s'encarrega d'esborrar el fixter introduït per paràmetere en la crida, si existeix.
 * **src/jutjatsHeaders.py**: conté la implementació de la funció _jutjatsHeaders_ que s'encarrega d'afegir els noms de les capçaleres del fitxer dels jutjats.
-* **src/jutjatsScrpaer.py**: conté la implementació de la funció _jutjatsScraper_ que s'encarrega de fer _scraping_ del web dels jutjats corresponent al codi de la província introduïda per paràmetre a la crida. [http://demarcacion.cgpe.es/provincia.aspx].
+* **src/jutjatsScraper.py**: conté la implementació de la funció _jutjatsScraper_ que s'encarrega de fer _scraping_ del web dels jutjats corresponent al codi de la província introduïda per paràmetre a la crida. [http://demarcacion.cgpe.es/provincia.aspx].
 * **src/procuradorScraper.py**: conté la implementació de la funció _procuradorScraper_ que s'encarrega de fer _scraping_ del web del procurador corresponent al codi indtroduït per paràmetre.[https://directorio.cgpe.es/DetColegiado.aspx].
 * **src/procuradorsHeaders.py**: onté la implementació de la funció _procuradorsHeaders_ que s'encarrega d'afegir els noms de les capçaleres del fitxer dels procuradors.
 
