@@ -23,6 +23,44 @@ L'activitat ha estat realitzada de manera individual per **David Martin Tinaquer
 * **jutjats.csv**: conté les dades recollides el 29/10/2018, mitjançant _scraping_ de tots els jutjats d'Espanya.
 * **procuradors.csv**: conté les dades recollides el dia 29/10/2018, mitjançant _scraping_ de tots els procuradors que actuen a Espanya. 
 
+## Biblioteques necessàries:
+```
+pip install requests
+pip install lxml
+```
+
+## Execució
+```
+python main.py 
+```
+
+# Camps que s'extreuen de jutjats
+
+- Link província
+- Partit judicial
+- Descripció partit judicial
+- Link partit judicial
+- Jutjat
+- Link jutjat
+- Adreça jutjat
+- CP jutjat
+- Població jutjat
+- Província jutjat
+
+# Camps que s'extreuen de procuradors
+- Nom
+- Col·legi
+- Id procurador
+- Telèfon procurador
+- Web procurador
+- Email procurador
+- Adreça
+- Població
+- Província
+- Telèfon despatx
+- Fax despatx
+- Link
+
 ## Recursos
 1. Subirats, L., Calvo, M. (2018). _Web Scraping_. Editorial UOC.
 2. Masip, D. El llenguatge Python. Editorial UOC.
