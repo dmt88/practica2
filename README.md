@@ -34,7 +34,7 @@ pip install lxml
 python main.py 
 ```
 
-# Camps que s'extreuen de jutjats
+## Camps que s'extreuen de jutjats
 
 - Link província
 - Partit judicial
@@ -47,7 +47,7 @@ python main.py
 - Població jutjat
 - Província jutjat
 
-# Camps que s'extreuen de procuradors
+## Camps que s'extreuen de procuradors
 - Nom
 - Col·legi
 - Id procurador
