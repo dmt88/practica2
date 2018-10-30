@@ -35,7 +35,7 @@ start_time2 = time()
 procuradorsHeaders(fitxerProcuradors)
 # cerca del les pàgines dels procuradors del rang introduït
 print("Cercant procuradors...")
-for i in range(1,99999):
+for i in range(1,40000): # 38390 últim procurador 29/10/2018
     scrapeProcurador(webProcuradors + str(i) + '&UIHJ=N',fitxerProcuradors)
 print("Fitxer de procuradors creat i finalitzat.")
 # temps empleat procuradors
