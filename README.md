@@ -29,7 +29,7 @@ pip install requests
 pip install lxml
 ```
 
-## Execució
+## Comanda d'execució:
 ```
 python main.py 
 ```
