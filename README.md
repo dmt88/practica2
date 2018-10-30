@@ -1,5 +1,5 @@
 # Pràctica 1: _Web scraping_
-Tipologia de la ciència de dades - Pràctica 1
+Tipologia i cicle de vida de les dades - Pràctica 1
 
 ## Descripció
 
