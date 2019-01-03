@@ -1,4 +1,4 @@
-# Pràctica 1: _Neteja i validació de dades_
+# Pràctica 2: _Neteja i validació de dades_
 Tipologia i cicle de vida de les dades - Pràctica 2
 
 ## Descripció
