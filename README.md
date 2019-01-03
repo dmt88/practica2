@@ -40,7 +40,7 @@ library(C50)
 
 ## Conclusions
 
-Als apartats anteriors s’han realitzat diferents proves estadístiques sobre un conjunt de dades que es correspon amb les transaccions de les compres d’una tenda minorista, amb diferents variables categòriques que fan referència a l’usuari (comprador) i les variables que indiquen les categories a les quals pertanyen els productes de les compres.
+S’han realitzat diferents proves estadístiques sobre un conjunt de dades que es correspon amb les transaccions de les compres d’una tenda minorista, amb diferents variables categòriques que fan referència a l’usuari (comprador) i les variables que indiquen les categories a les quals pertanyen els productes de les compres.
 
 L’anàlisi de la normalitat ha retornat que la variable dependent (Purchase) no té una distribució normal. Els contrasts d’hipòtesis també han mostrat que no existeix cap camp que tingui una relació forta amb el preu de la compra, i que el que més influència té són els que indiquen les categories dels productes comprats.
 
