@@ -16,7 +16,7 @@ L'activitat ha estat realitzada de manera individual per **David Martin Tinaquer
 
 ## Fitxer amb les respostes a la pràctica
 
-* **pdf/respostes.pdf
+* **pdf/respostes.pdf**
 
 ## Fitxer amb codi font
 
