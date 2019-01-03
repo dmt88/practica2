@@ -3,7 +3,7 @@ Tipologia i cicle de vida de les dades - Pràctica 2
 
 ## Descripció
 
-Aquesta pràctica s'ha realitzat sota el context de l'assignatura Tipologia i cicle de vida de les dades, pertanyent al Màster de Ciència de Dades de la UOC - Universitat Oberta de Catalunya. S'elabora un cas pràctic on s'han utilitzat les eines d'integració, neteja, validació i anàlisi de les mateixes.
+Aquesta pràctica s'ha realitzat sota el context de l'assignatura Tipologia i cicle de vida de les dades, pertanyent al Màster de Ciència de Dades de la UOC - Universitat Oberta de Catalunya. S'ha elaborat un cas pràctic on s'han utilitzat les eines d'integració, neteja, validació i anàlisi de les mateixes.
 
 El conjunt de dades sobre el que s'ha treballat és una mostra de les transaccions realitzades en una tenda minorista. La tenda vol conèixer millor el comportament de compra del client enfront a diferents productes. Específicament, és tracta d’un problema de regressió, al que es vol predir la variable dependent, l’import de la compra, amb ajuda de la informació continguda a la resta de variables.
 També es podria realitzar una anàlisi de classificació, ja que les variables són categòriques. Alguns enfocaments podrien ser predir l’edat del consumidor o, inclús, predir la categoria dels béns comprats. El conjunt de dades també és particularment convenient per agrupar i, potser, trobar diferents grups de consumidors dintre d’ell.
