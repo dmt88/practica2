@@ -1,9 +1,12 @@
-# Pràctica 1: _Web scraping_
-Tipologia i cicle de vida de les dades - Pràctica 1
+# Pràctica 1: _Neteja i validació de dades_
+Tipologia i cicle de vida de les dades - Pràctica 2
 
 ## Descripció
 
-Aquesta pràctica s'ha realitzat sota el context de l'assignatura Tipologia i cicle de vida de les dades, pertanyent al Màster de Ciència de Dades de la UOC - Universitat Oberta de Catalunya. S'han aplicat tècniques de _web scraping_, mitjançant el llenguatge de programació Python, per extreure dades de la web del "_Consejo General de Procuradores de España_".
+Aquesta pràctica s'ha realitzat sota el context de l'assignatura Tipologia i cicle de vida de les dades, pertanyent al Màster de Ciència de Dades de la UOC - Universitat Oberta de Catalunya. S'elabora un cas pràctic on s'han utilitzat les eines d'integració, neteja, validació i anàlisi de les mateixes.
+
+El conjunt de dades sobre el que s'ha treballat és una mostra de les transaccions realitzades en una tenda minorista. La tenda vol conèixer millor el comportament de compra del client enfront a diferents productes. Específicament, és tracta d’un problema de regressió, al que es vol predir la variable dependent, l’import de la compra, amb ajuda de la informació continguda a la resta de variables.
+També es podria realitzar una anàlisi de classificació, ja que les variables són categòriques. Alguns enfocaments podrien ser predir l’edat del consumidor o, inclús, predir la categoria dels béns comprats. El conjunt de dades també és particularment convenient per agrupar i, potser, trobar diferents grups de consumidors dintre d’ell.
 
 ## Membres de l'equip
 
@@ -11,57 +14,27 @@ L'activitat ha estat realitzada de manera individual per **David Martin Tinaquer
 
 ## Fitxers del codi font
 
-* **src/main.py**: punt d'entrada al programa. Inicia el procés de _scraping_.
-* **src/eliminaFitxer.py**: conté la implementació de la funció _eliminaFitxer_ que s'encarrega d'esborrar el fixter introduït per paràmetere en la crida, si existeix.
-* **src/jutjatsHeaders.py**: conté la implementació de la funció _jutjatsHeaders_ que s'encarrega d'afegir els noms de les capçaleres del fitxer dels jutjats.
-* **src/jutjatsScraper.py**: conté la implementació de la funció _jutjatsScraper_ que s'encarrega de fer _scraping_ del web dels jutjats corresponent al codi de la província introduïda per paràmetre a la crida. [http://demarcacion.cgpe.es/provincia.aspx].
-* **src/procuradorScraper.py**: conté la implementació de la funció _procuradorScraper_ que s'encarrega de fer _scraping_ del web del procurador corresponent al codi indtroduït per paràmetre.[https://directorio.cgpe.es/DetColegiado.aspx].
-* **src/procuradorsHeaders.py**: onté la implementació de la funció _procuradorsHeaders_ que s'encarrega d'afegir els noms de les capçaleres del fitxer dels procuradors.
+* **src/blackFriday.R**: fitxer que conté el codi font en llenguatge R.
 
 ## _Dataset_
 
-* **jutjats.csv**: conté les dades recollides el 29/10/2018, mitjançant _scraping_ de tots els jutjats d'Espanya.
-* **procuradors.csv**: conté les dades recollides el dia 29/10/2018, mitjançant _scraping_ de tots els procuradors que actuen a Espanya. 
+* **BlackFriday.csv**: conté les dades del _dataset_ original.
+* **BlackFridayCleaned.zip**: conté les dades finals analitzades. 
 
-## Biblioteques necessàries:
+## Llibreries necessàries:
 ```
-pip install requests
-pip install lxml
+library(dplyr)
+library(ggplot2)
+library(moments)
+library(nortest)
+library(car)
+library(C50)
+
 ```
-
-## Comanda d'execució:
-```
-python main.py 
-```
-
-## Camps que s'extreuen de jutjats
-
-- Link província
-- Partit judicial
-- Descripció partit judicial
-- Link partit judicial
-- Jutjat
-- Link jutjat
-- Adreça jutjat
-- CP jutjat
-- Població jutjat
-- Província jutjat
-
-## Camps que s'extreuen de procuradors
-- Nom
-- Col·legi
-- Id procurador
-- Telèfon procurador
-- Web procurador
-- Email procurador
-- Adreça
-- Població
-- Província
-- Telèfon despatx
-- Fax despatx
-- Link
 
 ## Recursos
-1. Subirats, L., Calvo, M. (2018). _Web Scraping_. Editorial UOC.
-2. Masip, D. El llenguatge Python. Editorial UOC.
-3. Lawson, R. (2015). _Web Scraping with Python. Packt Publishing Ltd. Chapter_ 2._Scraping the Data_.
+1. Megan Squire (2015). Clean Data. Packt Publishing Ltd.
+2. Jiawei Han, Micheine Kamber, Jian Pei (2012). Data mining: concepts and techniques. Morgan Kaufmann.
+3. Jason W. Osborne (2010). Data Cleaning Basics: Best Practices in Dealing with Extreme Scores. Newborn and Infant Nursing Reviews; 10 (1): pp. 1527-3369.
+4. Peter Dalgaard (2008). Introductory statistics with R. Springer Science & Business Media.
+5. Wes McKinney (2012). Python for Data Analysis. O’Reilley Media, Inc.
