@@ -362,7 +362,7 @@ medianByProdCatMax
 medianByProdCatMin
 
 
-# ALGORITME DE REGRESSIÓ PREDICITU
+# ALGORITME DE REGRESSIÓ PREDICTU
 # Regresors qualitatius dels compradors
 gender = blackFriday$Gender
 age = blackFriday$Age
@@ -440,7 +440,7 @@ newdata <- data.frame(
 predict(model12, newdata)
 
 
-# Classificació de categories amb arbre de decisió
+# ARBRE DE DECISSIÓ DE CLASSIFICACIÓ PER CATEGORIA DELS PRODUCTES
 set.seed(231678)
 mida.total <- nrow(blackFriday)
 mida.entrenament <- round(mida.total*0.7)
