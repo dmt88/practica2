@@ -53,6 +53,8 @@ categories <- paste(blackFriday$Product_Category_1,
                     blackFriday$Product_Category_3)
 blackFriday$Categories <- categories
 blackFriday$Categories <- factor(blackFriday$Categories)
+# Exportació de les dades tractades a fitxer
+blackFriday <- write.csv(write.csv(blackFriday, file = "BlackFridayCleaned.csv"))
 
 # Valors extrems
 outliers <- boxplot.stats(blackFriday$Purchase)$out
